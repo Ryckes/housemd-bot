@@ -1,0 +1,14 @@
+{
+  "name": "housemd-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "run": "TELEGRAM_BOT_TOKEN=`cat APIkey` node src/app.js"
+  },
+  "dependencies": {
+    "jsdom": "^9.2.0",
+    "request": "^2.72.0",
+    "node-telegram-bot-api": "^0.20.4"
+  }
+}
